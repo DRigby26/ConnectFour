@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/davidrigby/GitHub/ConnectFour/game.cpp
+game.h
+/Users/davidrigby/GitHub/ConnectFour/game.h
+
+/Users/davidrigby/GitHub/ConnectFour/game.h
+players.h
+/Users/davidrigby/GitHub/ConnectFour/players.h
+ctime
+-
+
+/Users/davidrigby/GitHub/ConnectFour/main.cpp
+iostream
+-
+players.h
+/Users/davidrigby/GitHub/ConnectFour/players.h
+game.h
+/Users/davidrigby/GitHub/ConnectFour/game.h
+
+/Users/davidrigby/GitHub/ConnectFour/players.cpp
+random
+-
+players.h
+/Users/davidrigby/GitHub/ConnectFour/players.h
+
+/Users/davidrigby/GitHub/ConnectFour/players.h
+game.h
+/Users/davidrigby/GitHub/ConnectFour/game.h
+iostream
+-
+
